@@ -1,0 +1,112 @@
+body {
+    background-color: rgb(233, 248, 255);
+}
+
+.image-container {
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.bordered-image {
+    border: 10px dotted rgb(91, 185, 252);
+    margin: 10px; 
+}
+
+.image-holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.image-border {
+    border: 10px dotted rgb(0, 42, 149);
+    margin: 10px; 
+}
+
+.k-pop {
+    background-color: rgb(204, 192, 255);
+}
+
+.chill-artists {
+    background-color: #ade6ff;
+}
+
+.images-holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.borders{
+    border: 10px dotted rgb(117, 11, 149);
+    margin: 10px;
+}
+
+.images-borders {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.border-class {
+    border: 10px dotted rgb(251, 179, 255);
+    margin: 10px;
+}
+
+.with-borders {
+    border: 10px dotted rgb(5, 163, 212);
+    margin: 10px;
+}
+
+.images-with-borders {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.with-border {
+    border: 10px dotted rgb(182, 20, 182);
+    margin: 10px;
+}
+
+.image-with-borders {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    text-align: center;
+}
+
+figure {
+  text-align: center;
+}
+
+figcaption {
+  margin-top: 8px;
+}
+
+.top-artists-and-songs {
+    background-color:rgb(255, 255, 255);
+    text-align: left;
+    color:rgb(0, 0, 0);
+    border: blue solid;
+}
+
+.l-and-t {
+display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    text-align: center;
+}
+
+.lngshot-and-txt {
+border: 10px dotted rgb(176, 145, 248);
+    margin: 10px;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devin | JS Demo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+    <h1>Today we will learn about JavaScript</h1>
+
+    <h2>This is how we do onclick events</h2>
+    <p><a href="https://www.google.com" target="_blank" onclick="alert('warning!'), alert('you\'re navigating away from my site'), alert('bye bye')">Search Google</a></p>
+
+<h2>How do we use JavaScript</h2>
+<p>What is 1+1</p>
+<button onclick="document.getElementById('add').innerHTML=1+1">Click me to find the answer</button>
+<p id="add"></p>
+
+<h2>How can we change text with JS?</h2>
+<button onclick="document.getElementById('change-text').innerHTML='great job!'">click here for a cool change</button>
+<p id="change-text">This text will change</p>
+
+<h2>We can also add the date and time to my page</h2>
+<button onclick="document.getElementById('date').innerHTML= Date()">click here for the date and time</button>
+<p id="date"></p>
+
+<h2>How do we make a function with JS</h2>
+<p>Let's use a function to add text to our page.</p>
+<button onclick="pFun()">click here to run the function</button>
+<p id="p-fun"></p>
+
+<h2>How do we return user data with JS</h2>
+<button onclick="askName()">click me to ask a question</button>
+<p id="ask-name"></p>
+
+<h2>How do we ask other questions with JS</h2>
+<button onclick="askQuestion()">click here for the best question</button>
+<p id="question"></p>
+
+    <script>
+        //alert('hello!');
+        //alert('HI!!!!');
+        //alert('ALERT');
+        //alert('have fun!!');
+        //alert('welcome to my website');
+        //alert('hope you like pop-ups');
+        //alert('L');
+        //alert('you can\'t escape\nyou\'re trapped');
+        //alert('keep trying');
+        //alert('almost there');
+
+        function pFun() {
+            var p = document.getElementById('p-fun');
+            p.innerHTML= 'you just did a function!!';
+            p.style.color= 'navy';
+            p.style.fontSize= '50px';
+            p.style.textAlign= 'center';
+        }
+    </script>
+</body>
+</html>
